@@ -61,11 +61,16 @@ function Hero() {
   return (
     <section id="hero" ref={ref} className="relative h-screen overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0">
-        <img
-          src={`${BP}/images/01-serhant-announcement.jpg`}
-          alt="Kateryna Hamanets"
-          className="w-full h-full object-cover object-top"
-        />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster={`${BP}/images/01-serhant-announcement.jpg`}
+          className="w-full h-full object-cover object-center"
+        >
+          <source src={`${BP}/images/hero-reel.mp4`} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black" />
       </motion.div>
       <motion.div style={{ opacity }} className="relative z-10 h-full flex flex-col justify-end pb-24 md:pb-32 px-6 md:px-12 lg:px-24">
