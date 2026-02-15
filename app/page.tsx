@@ -66,7 +66,7 @@ function Hero() {
           muted
           loop
           playsInline
-          poster={`${BP}/images/01-serhant-announcement.jpg`}
+          poster={`${BP}/images/kat-nyc-street.jpg`}
           className="w-full h-full object-cover object-center"
         >
           <source src={`${BP}/images/hero-reel.mp4`} type="video/mp4" />
@@ -170,7 +170,7 @@ function About() {
           className="relative"
         >
           <img
-            src={`${BP}/images/03-model-throwback-2016.jpg`}
+            src={`${BP}/images/kat-portrait-closeup.jpg`}
             alt="Kateryna Hamanets"
             className="w-full rounded-lg shadow-2xl"
           />
@@ -181,7 +181,7 @@ function About() {
       {/* NYC Photo */}
       <motion.div variants={fadeUp} className="mt-24 relative rounded-xl overflow-hidden">
         <img
-          src={`${BP}/images/02-madison-sq-listing.jpg`}
+          src={`${BP}/images/kat-rooftop-skyline.jpg`}
           alt="Kat in NYC penthouse with Empire State Building"
           className="w-full h-[50vh] object-cover object-center"
         />
@@ -251,10 +251,10 @@ function Expertise() {
 
 function Gallery() {
   const images = [
-    { src: "01-serhant-announcement.jpg", alt: "Professional headshot", span: "col-span-1 row-span-2" },
-    { src: "02-madison-sq-listing.jpg", alt: "NYC penthouse view", span: "col-span-1 row-span-1" },
-    { src: "03-model-throwback-2016.jpg", alt: "Model portfolio", span: "col-span-1 row-span-2" },
-    { src: "profile-hd.jpg", alt: "Profile", span: "col-span-1 row-span-1" },
+    { src: "kat-nyc-street.jpg", alt: "NYC street with SERHANT", span: "col-span-1 row-span-2" },
+    { src: "kat-rooftop-skyline.jpg", alt: "Rooftop with NYC skyline", span: "col-span-1 row-span-1" },
+    { src: "kat-penthouse-fullbody.jpg", alt: "Penthouse styling", span: "col-span-1 row-span-2" },
+    { src: "kat-portrait-closeup.jpg", alt: "Portrait closeup", span: "col-span-1 row-span-1" },
   ];
 
   return (
